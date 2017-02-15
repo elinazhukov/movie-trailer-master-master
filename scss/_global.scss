@@ -18,20 +18,27 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     color: slategrey;
-    font-size: 4em;
-    border-bottom: 2px solid atiquewhite;
+    font-size: 3em;
+    margin: 0px;
+
 }
 
-.char5 {
+h2 {
+    text-align: center;
+    color: slategrey;
+    font-style: 1em;
+}
+
+.char9 {
     color: antiquewhite;
 }
-.char6 {
+.char10 {
     color: antiquewhite;
 }
-.char7 {
+.char11 {
     color: antiquewhite;
 }
-.char8 {
+.char12 {
     color: antiquewhite;
 }
 
@@ -46,11 +53,17 @@ aside a {
     padding: 10px 15px;
 }
 
-ul {
-    list-style: none;
-    padding: 0px;
+aside li:hover {
+    background: antiquewhite;
     
 }
+
+
+ul {
+    list-style: none;
+    padding: 0px;   
+}
+
 
 
 
