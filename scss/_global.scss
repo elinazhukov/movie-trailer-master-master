@@ -5,10 +5,54 @@ $primary-color: gold;
 $secondary-color: purple;
 
 //Typography
+body {font-family: 'Cormorant Garamond', serif;
+}
+
+
 //Hide for Mobile & Tablet 
 article h1 {
     display: none;
 }
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: slategrey;
+    font-size: 4em;
+    border-bottom: 2px solid atiquewhite;
+}
+
+.char5 {
+    color: antiquewhite;
+}
+.char6 {
+    color: antiquewhite;
+}
+.char7 {
+    color: antiquewhite;
+}
+.char8 {
+    color: antiquewhite;
+}
+
+p {
+    margin: 0px;
+}
+
+aside a {
+    color: slategray;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    
+}
+
+
 
 // Video Player Styling
 video {
