@@ -5,7 +5,7 @@ $primary-color: gold;
 $secondary-color: purple;
 
 //Typography
-body {font-family: 'Cormorant Garamond', serif;
+body {font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -27,6 +27,7 @@ h2 {
     text-align: center;
     color: slategrey;
     font-style: 1em;
+
 }
 
 .char9 {
@@ -44,6 +45,8 @@ h2 {
 
 p {
     margin: 0px;
+    padding: 25px;
+    text-align: justify;
 }
 
 aside a {
@@ -62,6 +65,12 @@ aside li:hover {
 ul {
     list-style: none;
     padding: 0px;   
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
 
 
